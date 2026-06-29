@@ -1,0 +1,10 @@
+# NLP Task
+- NLP(Natural Language Processing)는 컴퓨터가 자연어로 된 텍스트,음성데이터를 인식하고 처리하는 인공지능.
+- transformer - 모든 task를 다음 토큰 예측(생성)으로 통일 -> 문제점: "그럴듯함", Hallucination
+- NLG(Natural Language Generation)는 NLU(Natural Language Understanding)가 전제
+# NLP 파이프라인
+- Tokenizing - 컴퓨터가 처리할 수 있는 작은단위로 변환
+- Encoding - 토큰을 정수 ID로 매핑
+- Vectorization - 벡터 공간 상에 의미있는 데이터로 변환(단어간의 연관성 반영)
+- Inference - 추론(예측), WX+ b
+- Decoding - Inference 결과를 사람이 해석할 수 있도록 변환
